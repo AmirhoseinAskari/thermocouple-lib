@@ -8,23 +8,8 @@ Temperature-voltage conversion utilities for thermocouples in C/C++
 - Convert voltage (mV) ↔ temperature (°C)  
 - Polynomial approximation for accuracy  
 - Lightweight, portable C code  
-- Developed with consideration of **MISRA-C** guidelines for safety-critical systems  
-- Temperature and voltage ranges compliant with **IEC 60584** standard
-
-## 📁 File Structure
-
-thermocouple-lib/
-├── lib/
-│ ├── thermocouple_sensor.c
-│ └── thermocouple_sensor.h
-├── example.c
-├── LICENSE
-├── README.md
-└── .gitignore
-
-pgsql
-Copy
-Edit
+- **Developed with consideration of MISRA-C guidelines** for safety-critical and embedded systems  
+- **Temperature and voltage ranges compliant with IEC 60584 standard**
 
 ## 🧪 API Reference
 
