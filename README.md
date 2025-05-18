@@ -25,8 +25,7 @@ Returns the voltage, or `TC_CONVERSION_FAILED` if the temperature is out of rang
 
 ## 💡 Example
 
-An example demonstrating how to use the library is provided in [`example.c`](./example.c).  
-It shows how to convert between thermocouple voltage and temperature using the API functions.
+An example showing how to use the library is in example/main.c.
 
 ## 📌 Thermocouple Types
 
