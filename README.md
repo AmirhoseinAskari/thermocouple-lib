@@ -23,6 +23,11 @@ Returns the temperature, or `TC_CONVERSION_FAILED` if the voltage is out of rang
 Converts temperature (in °C) to thermocouple voltage (in millivolts).  
 Returns the voltage, or `TC_CONVERSION_FAILED` if the temperature is out of range.
 
+## 💡 Example
+
+An example demonstrating how to use the library is provided in [`example.c`](./example.c).  
+It shows how to convert between thermocouple voltage and temperature using the API functions.
+
 ## 📌 Thermocouple Types
 
 | Type Name | Enum Value    |
