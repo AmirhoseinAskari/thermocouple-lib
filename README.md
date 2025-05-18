@@ -11,6 +11,7 @@ Temperature-voltage conversion utilities for thermocouples in C/C++
 - **Developed with consideration of MISRA-C guidelines** for safety-critical and embedded systems  
 - **Temperature and voltage ranges compliant with IEC 60584 standard**
 
+
 ## 🧪 API Reference
 
 ### `double TC_CalculateTemperature(ThermocoupleType type, double voltage)`
@@ -22,6 +23,7 @@ Returns the temperature, or `TC_CONVERSION_FAILED` if the voltage is out of rang
 
 Converts temperature (in °C) to thermocouple voltage (in millivolts).  
 Returns the voltage, or `TC_CONVERSION_FAILED` if the temperature is out of range.
+
 
 ## 📌 Thermocouple Types
 
@@ -35,6 +37,7 @@ Returns the voltage, or `TC_CONVERSION_FAILED` if the temperature is out of rang
 | Type E    | `TC_TYPE_E`   |
 | Type K    | `TC_TYPE_K`   |
 | Type N    | `TC_TYPE_N`   |
+
 
 ## 📜 License
 
