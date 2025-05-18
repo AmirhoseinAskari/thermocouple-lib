@@ -4,14 +4,16 @@ Temperature-voltage conversion utilities for thermocouples in C/C++
 
 ## 🔧 Features
 
-- Supports thermocouple types: K, J, T, E, N, R, S, B
-- Convert voltage (mV) ↔ temperature (°C)
-- Polynomial approximation for accuracy
-- Lightweight, portable C code
+- Supports thermocouple types: K, J, T, E, N, R, S, B  
+- Convert voltage (mV) ↔ temperature (°C)  
+- Polynomial approximation for accuracy  
+- Lightweight, portable C code  
+- Developed with consideration of **MISRA-C** guidelines for safety-critical systems  
+- Temperature and voltage ranges compliant with **IEC 60584** standard
 
-- ## 📁 File Structure
+## 📁 File Structure
 
-- thermocouple-lib/
+thermocouple-lib/
 ├── lib/
 │ ├── thermocouple_sensor.c
 │ └── thermocouple_sensor.h
@@ -19,6 +21,10 @@ Temperature-voltage conversion utilities for thermocouples in C/C++
 ├── LICENSE
 ├── README.md
 └── .gitignore
+
+pgsql
+Copy
+Edit
 
 ## 🧪 API Reference
 
@@ -54,5 +60,3 @@ This project is licensed under the [MIT License](./LICENSE).
 **Amirhossein Askari**  
 📧 theamiraskarii@gmail.com  
 🔗 [GitHub Profile](https://github.com/AmirhoseinAskari)
-
-
