@@ -4,7 +4,7 @@ Temperature-voltage conversion utilities for thermocouples in C/C++
 
 ## 🔧 Features
 
-- Supports thermocouple types: K, J, T, E, N, R, S, B  
+- Supports thermocouple types: `K`, `J`, `T`, `E`, `N`, `R`, `S`, `B`  
 - Convert voltage (mV) ↔ temperature (°C)  
 - Polynomial approximation for high accuracy  
 - Lightweight, portable C code  
@@ -15,12 +15,12 @@ Temperature-voltage conversion utilities for thermocouples in C/C++
 
 ### `double TC_CalculateTemperature(ThermocoupleType type, double voltage)`
 
-Converts thermocouple voltage (in millivolts) to temperature (in °C).  
+Converts thermocouple voltage (in mV) to temperature (in °C).  
 Returns the temperature, or `TC_CONVERSION_FAILED` if the voltage is out of range.
 
 ### `double TC_CalculateVoltage(ThermocoupleType type, double temperature)`
 
-Converts temperature (in °C) to thermocouple voltage (in millivolts).  
+Converts temperature (in °C) to thermocouple voltage (in mV).  
 Returns the voltage, or `TC_CONVERSION_FAILED` if the temperature is out of range.
 
 ## 💡 Example
