@@ -24,8 +24,7 @@ Converts temperature (in °C) to thermocouple voltage (in mV).
 Returns the voltage, or `TC_CONVERSION_FAILED` if the temperature is out of range.
 
 ## 💡 Example
-
-An example showing how to use the library is in example/main.c.
+An example showing how to use the library is provided in [`example/main.c`](./example/main.c). 
 
 ## 📌 Thermocouple Types
 
