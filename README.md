@@ -1,6 +1,6 @@
 # thermocouple-lib
 
-Temperature-voltage conversion utilities for thermocouples in C/C++
+High-accuracy temperature-voltage conversion utilities for thermocouple sensors in C/C++
 
 ## 🔧 Features
 
