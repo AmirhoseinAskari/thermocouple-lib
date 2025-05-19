@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include "thermocouple_sensor.h"
 
