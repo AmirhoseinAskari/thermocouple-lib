@@ -13,12 +13,12 @@ High-accuracy temperature-voltage conversion utilities for thermocouple sensors 
 
 ## 🧪 API Reference
 
-### `double TC_CalculateTemperature(ThermocoupleType type, double voltage)`
+### `TC_CalculateTemperature(...)`
 
 Converts thermocouple voltage (in mV) to temperature (in °C).  
 Returns the temperature, or `TC_CONVERSION_FAILED` if the voltage is out of range.
 
-### `double TC_CalculateVoltage(ThermocoupleType type, double temperature)`
+### `TC_CalculateVoltage(...)`
 
 Converts temperature (in °C) to thermocouple voltage (in mV).  
 Returns the voltage, or `TC_CONVERSION_FAILED` if the temperature is out of range.
