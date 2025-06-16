@@ -24,6 +24,9 @@
 #ifndef _THERMOCOUPLE_SENSOR_H
 #define _THERMOCOUPLE_SENSOR_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /* ------------------------------------- Includes ------------------------------------- */
 
@@ -70,12 +73,7 @@ typedef struct
 
 
 /* ------------------------------------- Prototype ------------------------------------- */
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-        
+     
 /**
  * @brief  Calculates temperature from thermocouple voltage.
  *
